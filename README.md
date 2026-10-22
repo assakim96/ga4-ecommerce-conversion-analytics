@@ -66,24 +66,3 @@ Looker Studio에서 **퍼널 / 기기별 성과 / 상품별 성과** 3개 화면
 - 전환율 차이의 원인을 판단하려면 유입 경로, 상품 가격·재고, 세션 기준 분석, 데이터 수집 품질 등을 추가 검증해야 합니다.
 
 **포트폴리오 용도:** 데이터 추출 → 지표 정의 → SQL 분석 → VIEW 데이터 마트 → 시각화 → 개선 가설 도출 과정을 재현 가능하게 기록합니다.
-
-
-Looker Studio
-
-
-Project Overview
-
-GA4 공개 이커머스 데이터를 활용해 사용자 전환 퍼널, 기기별 전환율, 상품별 전환 성과를 분석한 개인 프로젝트.
-
-Key Findings
-- 상품 조회 대비 순차 구매 전환율: 6.34%
-- 상품 조회 → 장바구니 미전환율: 67.32%
-- 기기별 전환율 및 상품별 개선 검토 대상 도출
-Data Pipeline
-GA4 Sample Data
-
-BigQuery SQL
-
-Data Mart (VIEW)
-
-Google Sheets → Looker Studio
